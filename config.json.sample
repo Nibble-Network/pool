@@ -1,8 +1,8 @@
 {
     "poolHost": "pool_host_name",
 
-    "coin": "ultranotei",
-    "symbol": "XUNI",
+    "coin": "nibble",
+    "symbol": "NBXC",
     "coinUnits": 1000000,
     "coinDecimalPlaces": 6,
     "coinDifficultyTarget": 120,
@@ -27,7 +27,7 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "Wallet address",
+        "poolAddress": "XCR......................................................",
         "intAddressPrefix": null,
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
@@ -96,7 +96,7 @@
         "enabled": true,
         "interval": 300,
         "maxAddresses": 50,
-        "mixin": 3,
+        "mixin": 1,
         "priority": 0,
         "transferFee": 50000,
         "dynamicTransferFee": true,
@@ -135,12 +135,12 @@
 
     "daemon": {
         "host": "127.0.0.1",
-        "port": 43000
+        "port": 16001
     },
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 8070
+        "port": 15001
     },
 
     "redis": {
